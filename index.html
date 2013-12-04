@@ -1,14 +1,36 @@
 <html>
 <head>
-	<script type="text/javascript" src="keymaster.min.js"></script>
-	<script type="text/javascript" src="movingObject.js"></script>
-	<script type="text/javascript" src="asteroid.js"></script>
-	<script type="text/javascript" src="ship.js"></script>
-	<script type="text/javascript" src="bullet.js"></script>
-	<script type="text/javascript" src="game.js"></script>
+  <script type="text/javascript" src="keymaster.js"></script>
+  <script type="text/javascript" src="movingObject.js"></script>
+  <script type="text/javascript" src="asteroid.js"></script>
+  <script type="text/javascript" src="ship.js"></script>
+  <script type="text/javascript" src="bullet.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+  <link rel="stylesheet" type='text/css' href="stylesheet.css">
 </head>
 <body onload= "callcanvas()">
-<canvas width="800" height="600" id="canvas"></canvas>
-
+<div class="container">
+  <canvas width="800" height="600" id="canvas"></canvas>
+  <div><div class="messages" id="messages">Hit enter to start game!</div></div>
+  <div><div class="instructions">
+    Controls:
+    <div>
+      <table>
+        <tr><td>Enter:</td>
+        <td>Start Game</td></tr>
+        <tr><td>Left:</td>
+        <td>Accelerate Left</td></tr>
+        <tr><td>Right:</td>
+        <td>Accelerate Right</td></tr>
+        <tr><td>Up:</td>
+        <td>Accelerate Up</td></tr>
+        <tr><td>Down:</td>
+        <td>Accelerate Down</td></tr>
+        <tr><td>Z:</td>
+        <td>Shoot</td></tr>
+      </table>
+    </div>
+  </div></div>
+</div>
 </body>
 </html>

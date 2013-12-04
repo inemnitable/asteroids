@@ -1,0 +1,19 @@
+div.container {
+	width: 810px;
+	margin: 0 auto;
+}
+
+canvas {
+	margin: 0 auto;
+}
+
+div.messages {
+	font-size: 2em;
+	color: red;
+	text-align: center;
+}
+
+div.instructions {
+	margin: 0 auto;
+	display: inline-block;
+}
